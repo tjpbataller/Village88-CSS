@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+}
+section,
+footer{
+    margin-top: 20px;
+}
+#wrapper{
+    width: 760px;
+    margin: auto;
+    background-image: linear-gradient(#d4e1eb, white, #c0ccd8);
+    height: 100%;
+    padding: 20px 20px 0 20px;
+}
+#photo {
+    width: 250px;
+    height: 210px;
+    background-image: url("photos/photo_of_me.jpg");
+    background-repeat: no-repeat;
+    background-position-x:-45px;
+    background-size:cover;
+    margin-right: 25px;
+}
+#contacts h1,
+#contacts p,
+h2, h4{
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+#contacts h1{
+    letter-spacing: 5px;
+    font-size: 36px;
+    color: rgb(45,71,103);
+}
+#contacts p{
+    border-bottom: solid 2px rgb(45,71,103);
+    margin-top: 5px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: rgb(45,71,103);
+}
+#contacts li{
+    display: inline-block;
+    font-size: 15px;
+}
+header > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+img{
+    width: 65px;
+    height: 65px;
+    padding:3px;
+}
+section.others{
+    display: inline-block;
+    width: 49.63%;
+    vertical-align: top;
+}
+section h2 {
+    text-align: center;
+}
+section.others > div{
+    padding: 0 20px 20px 20px;
+}
+section.others li{
+    margin-left: 20px;
+}
+#knowing{
+    text-align: justify;
+    background-color: #e7e7e7;
+    padding: 20px;
+}
+#knowing p{
+    line-height: 24px;
+    margin-top: 20px;
+}
+#projects{
+    background-image: linear-gradient(#e0e0e0, #ffffff, #acacac);
+    padding-top: 10px;
+    box-shadow: 0px 0px 0px 0px grey inset;
+}
+footer{
+    text-align: center;
+}
+footer p,footer img{
+    display: inline-block;
+    vertical-align: bottom;
+}
+footer a{
+    color:rgb(45,71,103);
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}

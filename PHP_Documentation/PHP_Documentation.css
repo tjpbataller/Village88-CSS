@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: solid 1px black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: #313131;
+}
+
+header {
+    background-color: #8892BF;
+    padding: 0 50px 0 50px;
+    border-bottom: solid 5px #4B578C;
+}
+
+    header div.links, header form {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    header div.links {
+        width: 1350px;
+        padding: 0 20px;
+    }
+
+        header div.links img {
+            display: inline-block;
+            height:25px;
+            vertical-align: middle;
+            margin: 0 20px;
+        }
+
+        header div.links a {
+            display: inline-block;
+            text-decoration: none;
+            color: #C5C9DD;
+            padding: 20px 15px;
+            vertical-align: middle;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        header div.links a.selected { 
+            background-color: #4B578C;
+            color: #FFFFFF;
+        }
+
+        header form label input {
+            display: inline-block;
+            width: 380px;
+            border: none;
+            border-radius: 2px;
+            background-color: white;
+            font-size: 18px;
+            padding: 2px 5px;
+            vertical-align: middle;
+        }
+
+nav {
+background-color: #313131;
+padding: 0 80px;
+/* outline: 2px solid red; */
+}
+
+    nav div {
+        color: #d0d0d0;
+        display: inline-block;
+        width: 860px;
+        vertical-align: top;
+        /* outline: 2px solid blue; */
+    }
+
+        nav div.query {
+            text-align: right;
+        }
+
+        nav div a {
+            display: inline-block;
+            color: #d0d0d0;
+            text-decoration: none;
+            padding: 20px 5px;
+            font-size: 14px;
+            /* outline: 2px solid red; */
+        }
+
+        nav div.query a {
+            padding-left: 40px;
+        }
+
+        nav div p {
+            display: inline-block;
+            font-size: 14px;
+        }
+
+main {
+    padding: 0 50px;
+    color: #313131;
+}
+
+    main div.content,
+    main div.skipper {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    main div.content {
+        width: 1350px;
+        background-color: #F2F2F2;
+        padding: 30px 20px;
+        box-shadow: 5px 0px 0px #4B578C;
+    }
+
+        main div.content form,
+        main div.content div.report,
+        main div.content > ul {
+            display: block;
+        }
+
+        main div.content form,
+        main div.content div.report {
+            text-align: right;
+        }
+            main div.content form select {
+                width: 150px;
+            }
+            
+            main div.content div.report a {
+                display: inline-block;
+                font-size: 14px;
+                padding-left: 20px;
+                padding-top: 5px;
+                text-decoration: none;
+            }
+        
+        main div.content h1,
+        main div.content > h2 {
+            border-bottom: dotted 1px black;
+            padding: 20px 0 5px 0;
+        }
+            
+        main div.content div.chapters {
+            padding: 20px 22px;
+        }
+
+            main div.content div.chapters a {
+                display: list-item;
+                padding: 2px 0;
+                font-size: 17px;;
+                letter-spacing: 1px;
+                color: #3366B0;
+                width: fit-content;
+            }
+        
+        main div.content > p {
+            /* outline: 1px solid black; */
+            line-height: 22px;
+            letter-spacing: 1px;
+            margin-bottom: 22px;
+        }
+
+        main div.content div.note {
+            display: inline-block;
+            vertical-align: top;
+            border-bottom: dotted 1px black;
+            color: #313131;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+            main div.content div.note h2,
+            main div.content div.note a {
+                display: inline-block;
+            }
+
+            main div.content div.note h2 {
+                width: 1249px;
+                color: #8e577b;
+            }
+
+            main div.content div.note a {
+                border-bottom: 1px solid #3366B0;
+                text-decoration: none;
+                color: #3366B0;
+                font-size: 14px;
+            }
+
+                main div.content div.note a img {
+                    width: 12px;
+                    margin-right: 2px;
+                }
+
+    main div.skipper {
+        color: #d0d0d0;
+        padding: 20px;
+        width: 350px;
+    }
+
+        main div.skipper h3,
+        main div.skipper p,
+        main div.skipper a {
+            display: block;
+            width: 100%;
+            border-bottom: dotted 1px #d0d0d0;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        }
+
+        main div.skipper h3 {
+            font-weight: 200;
+            font-size: 18px;
+            padding-bottom: 14px;
+        }
+        
+        main div.skipper a {
+            font-size: 14px;
+            padding-left: 20px;
+            text-decoration: none;
+            color: #d0d0d0;
+        }
+
+        main div.skipper a.selected {
+            color: #AE4F7E;
+            border-color: #AE4F7E;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+footer {
+    padding: 200px 120px 0 120px;
+}
+
+    footer p,
+    footer a {
+        display: inline-block;
+        color: #F2F2F2;
+        font-weight: 100;
+        padding: 0 15px;
+        text-decoration: none;
+        letter-spacing: 1px;
+    }

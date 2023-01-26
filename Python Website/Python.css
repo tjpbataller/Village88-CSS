@@ -1,0 +1,226 @@
+*{
+    padding:0;
+    margin:0;
+    background-repeat: no-repeat;
+}
+
+html,
+body {
+    background-color: #28557c;
+    background-image: linear-gradient(#204566 15%,#3079ba 85%);
+}
+
+header {
+    padding: 20px 200px 10px 200px;
+}
+    header form,
+    header a,
+    header img { 
+        display: inline-block;
+        vertical-align: middle;
+        color: black;
+    }
+    header a img {
+        width: 280px;
+    }
+    header div {
+        display: inline-block;
+        width: 1215px;
+        text-align: right;
+    }
+        header div a {
+            background-color: #ffde70;
+            background-image: linear-gradient(#ffe695 10%, #eabf32 90%);
+            text-decoration: none;
+            padding: 10px 12px;
+            border: none;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        header form{
+            background-color: #1e2933;
+            border-radius: 5px;
+        }
+            header form input#search-input {
+                padding: 10px;
+                margin: 14px 14px 18px 18px;
+                font-size: 14px;
+                letter-spacing: 1px;
+                width: 220px;
+            }
+            header form input#go-btn {
+                font-size: 17px;
+                background-color: #3673a7;
+                background-image: linear-gradient(#3387d0, #295b87);
+                color: white;
+                border: solid 1px black;
+                border-radius: 5px;
+                padding: 10px;
+                margin-right: 10px;
+            }
+            header form input#socialize-btn {
+                background-color: transparent;
+                font-size: 16px;
+                border: solid 2px #161616;
+                border-radius: 0px 5px 5px 0px;
+                border-top: none;
+                border-bottom: none;
+                border-right: none;
+                padding: 24px 20px 32px 20px;
+                color: #b2b2b2;
+            }
+
+nav {
+    padding: 0 200px;
+}
+    nav div {
+        background-color: #336d9e;
+        border-radius: 10px ;
+        text-align: center;
+        background-image: linear-gradient(#24567f 20%, #3173aa 80%);
+        border-top: 1px solid #629ccd;
+        border-bottom: 1px solid #18334b;
+        box-shadow: 0px 0px 5px -1px #161616;
+    }
+        nav div a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px 30px;
+            border-right: solid 2px #2c5e89;
+        }
+        nav div a#selected {
+            background-color: #2b5b84;
+        }
+
+main {
+    padding: 0 200px;
+    text-align: center;
+}
+    .columns {
+        display: inline-block;
+        vertical-align: top;
+    }
+    main div.columns {
+        text-align: left;
+    }
+    main div.big-image {
+        position: relative;
+        width: 800px;
+    }
+    main div#setup {
+        padding-top: 50px;
+    }
+        main div p {
+            font-family: Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: 32px;
+            color: #ffd343;
+        }
+        main div p#explain {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: #ffffff;
+            width: 450px;
+            margin-top: 20px;
+            word-wrap: break-word;
+            line-height: 32px;
+            padding-bottom: 70px;
+        }
+        main div.big-image img {
+            position: absolute;
+            width: 720px;
+            top: 0;
+            right: 0;
+            z-index: 9999;
+        }
+
+
+
+.contents {
+    padding: 0 200px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px black;
+}
+    .contents section.columns {
+        border-top: solid 5px #75a8d3;
+        width: 45%;
+        margin: 20px 10px;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+    }
+        div.contents section.columns h2 {
+            display: inline-block;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #868686;
+            font-weight: 400;
+            width: 613px;
+            margin-bottom: 7px;
+        }
+        div.contents section.columns a {
+            color: #989898;
+        }
+        div.contents section.columns div {
+            border-top: solid 1px grey;
+        }
+            div.contents section.columns div p {
+                display: inline-block;
+                margin: 12px 40px 12px 0;
+            }
+            div.contents section.columns div a {
+                text-decoration: none;
+                color: #3673a7;
+                font-weight: 400;
+            }
+                div.contents section.techs div p {
+                    font-family: Arial, sans-serif;
+                    font-size: 18px;
+                    font-weight: 600;
+                    letter-spacing: -1px;
+                    margin: 10px 10px 10px 0;
+                }
+                div.contents section.techs div a {
+                    color: gray;
+                    background-color: #ececec;
+                    box-shadow: 0px 2px 0px #d5d5d5;
+                    padding: 5px;
+                }
+
+footer {
+    padding-bottom: 40px;
+    background-image: linear-gradient(#2f6594 15%,#3079ba 85%);
+}
+    footer p {
+        text-align: center;
+        color: #77b3d5;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+        footer p a {
+            display: inline-block;
+            font-size: 18px;
+            color: #77b3d5;
+            padding: 25px 15px;
+            text-decoration: none;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+            footer p a span.online {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: green;
+            }
+            footer p#links a {
+                font-size: 14px;
+                margin-right: 5px;
+                padding: 0; 
+            }
+            footer p#links a {
+                border-bottom: dotted 1px #77b3d5;
+            }
